@@ -32,7 +32,7 @@ bomb marking doesn’t kill you, but it can lead to mistakes which do.
 ### GAME
 To play the game 
         
-            python minesweeper.py
+            python hci_minesweeper.py
             
 **PREREQUISITIES**
     
