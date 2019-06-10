@@ -282,7 +282,7 @@ class MainWindow(QMainWindow):
                 # First click.
                 self.update_status(STATUS_PLAYING)
                 # Start timer.
-            self._timer_start_nsecs = int(time.time()) 
+                self._timer_start_nsecs = int(time.time()) 
                 
                 
     def update_status(self, status):
