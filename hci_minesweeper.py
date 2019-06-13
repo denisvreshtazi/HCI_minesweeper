@@ -128,7 +128,7 @@ class MainWindow(QMainWindow):
         
         self.box_size = box_size
         self.n_mines = n_mines
-        self.n_flags=n_mines
+        self.n_flags = n_mines
         
         w = QWidget()
         hb = QHBoxLayout()
@@ -146,7 +146,7 @@ class MainWindow(QMainWindow):
         self.button = QPushButton()
         self.button.setFixedSize(QSize(32, 32))
         self.button.setIconSize(QSize(32, 32))
-        self.button.setIcon(QIcon("./images/smiley.png"))
+        self.button.setIcon(QIcon("./images/play.png"))
         self.button.setFlat(True)
         self.button.pressed.connect(self.button_pressed)
         
